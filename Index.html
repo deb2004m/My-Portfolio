@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="script" href="script.js" />
+  </head>
+  <body>
+    <div class="main-navbar">
+      <div class="logo">𝘿𝙚𝙗𝙖𝙨𝙝𝙞𝙨</div>
+      <nav>
+        <ul id="nav-links">
+          <li><a href="#About ME">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Tech Skills">Tech Skills</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="hero-section">
+      <div class="hero-content">
+        <!-- LEFT: Text -->
+        <div class="hero-text">
+          <h1>Hi, Welcome to My Portfolio</h1>
+
+          <p class="typing-text">
+            Debashis Moharana | <span id="typed-role"></span>
+          </p>
+
+          <p class="hero-desc">
+            I’m Debashis Moharana, a Full-Stack Developer passionate about
+            creating efficient, scalable, and intuitive web applications. With a
+            strong interest in Java and modern web technologies, I enjoy solving
+            real-world problems through clean code and thoughtful design.
+          </p>
+        </div>
+
+        <!-- RIGHT: Image -->
+        <div class="hero-image">
+          <img
+            src="./assets/Profile.png"
+            class="profile-img"
+            alt="Profile Image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="profile-section" id="About ME">
+      <h2>About Me</h2>
+      <div class="profile-box">
+        <img src="./assets/about.jpg" alt="/" />
+        <p>
+          I am a final-year Computer Science student with a passion for software
+          development. I enjoy learning new technologies, building practical
+          projects, and turning ideas into meaningful digital solutions.
+        </p>
+      </div>
+    </div>
+    <div class="straight-line"></div>
+    <div class="techSkills-section" id="Tech Skills">
+      <h2>Tech Skills</h2>
+      <div class="skills-box">
+        <ul>
+          <li><img src="./assets/java.svg" alt="" /></li>
+          <li><img src="./assets/images.png" alt="" /></li>
+          <li><img src="./assets/images (2).png" alt="" /></li>
+          <li><img src="./assets/images (1).png" alt="" /></li>
+          <li><img src="./assets/HTML5_logo_and_wordmark.svg.png" alt="" /></li>
+          <li><img src="./assets/CSS3_logo.svg.png" alt="" /></li>
+          <li><img src="./assets/images.jpg" alt="" /></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="straight-line"></div>
+    <!-- /* Education Section Added Here */ -->
+    <div class="education-section">
+      <h2>My Education</h2>
+      <div class="edt-box">
+        <div class="year">
+          <h5>2022 - 2026</h5>
+        </div>
+        <div class="edt-type">
+          <h4>Bachelor of Technology in Computer Science</h4>
+          <p>DRIEMS UNIVERSITY</p>
+        </div>
+      </div>
+      <div class="edt-box">
+        <div class="year">
+          <h5>2020 - 2022</h5>
+        </div>
+        <div class="edt-type">
+          <h4>Higher Secondary Education, +2 Science</h4>
+          <p>SAIHSR, Matrubhaban</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="straight-line"></div>
+    <!-- /* Projects Section Added Here */ -->
+    <div class="projects-section" id="Projects">
+      <h2>Projects</h2>
+
+      <div class="flex-box">
+        <div class="project-img">
+          <img
+            src="./assets/ChatGPT Image Jan 31, 2026, 12_17_56 PM.png"
+            alt=""
+          />
+        </div>
+        <div class="project-title">
+          <h5>Online Medication and Prescription Tracking</h5>
+          <p>
+            A web application that allows users to track their medications and
+            prescriptions online.
+          </p>
+          <div class="tag-container">
+            <span class="spacebar">Java</span>
+            <span class="spacebar">Spring Boot</span>
+            <span class="spacebar">Mongodb</span>
+            <span class="spacebar">React Js</span>
+          </div>
+          <a
+            href="https://github.com/deb2004m/Online-Medication-Prescription-Tracking-project"
+            target="_blank"
+            class="btn"
+          >
+            Link</a
+          >
+        </div>
+      </div>
+      <div class="flex-box">
+        <div class="project-img">
+          <img src="./assets/email.jpg" alt="" />
+        </div>
+        <div class="project-title">
+          <h5>Email Administration System</h5>
+          <p>
+            A java based application that allows users to manage their email
+            accounts and settings.
+          </p>
+          <div class="tag-container">
+            <span class="spacebar">Java</span>
+            <span class="spacebar">Oops</span>
+            <span class="spacebar">MySQL</span>
+          </div>
+          <a
+            href="https://github.com/deb2004m/email-administrator"
+            target="_blank"
+            class="btn"
+          >
+            Link</a
+          >
+        </div>
+      </div>
+      <div class="flex-box">
+        <div class="project-img">
+          <img src="./assets/quize.jpg" alt="" />
+        </div>
+        <div class="project-title">
+          <h5>Quize Backend Application</h5>
+          <p>
+            A spring boot based application that allows users to take quizzes
+            and track their scores.
+          </p>
+          <div class="tag-container">
+            <span class="spacebar">Java</span>
+            <span class="spacebar">Spring Boot</span>
+            <span class="spacebar">REST API</span>
+            <span class="spacebar">MySQL</span>
+          </div>
+          <a
+            href="https://github.com/deb2004m/QuizApplication-Spring-Boot"
+            target="_blank"
+            class="btn"
+          >
+            Link</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="straight-line"></div>
+    <div class="contact-section" id="Contact">
+      <h2>Contact Me</h2>
+      <div class="contact-box">
+        <form action="">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-section">
+      <p>© 2026 Debashis Moharana. All rights reserved.</p>
+
+      <a href="https://www.linkedin.com/in/debashis-moharana/" target="_blank"
+        ><img src="./assets/linkedin.png" alt="LinkedIn Profile"
+      /></a>
+      <a href="https://x.com/debashisM01" target="_blank"
+        ><img src="./assets/x_logo_PNG2.png" alt="X Profile"
+      /></a>
+      <a href="https://github.com/deb2004m" target="_blank"
+        ><img src="./assets/github.png" alt="GitHub Profile"
+      /></a>
+    </div>
+    <script>
+      const burger = document.getElementById("burger");
+      const navLinks = document.getElementById("nav-links");
+
+      burger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
